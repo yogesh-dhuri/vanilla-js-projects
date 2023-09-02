@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+body {
+	height:100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+	background-color: #fff;
+	width:40vw;
+	padding: 20px;
+	border-radius:10px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px	;
+}
+
+header h4{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+#add{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	border-radius:25px;
+	border: none;
+	outline: none;
+	margin-bottom: 15px;
+	background-color: #edeef0;
+}
+
+#add input{
+	flex:1;
+	border: none;
+	outline: none;
+	background: transparent;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+#add button{
+	border: none;
+	outline: none;
+	padding: 15px 50px;
+	border-radius: 40px;
+	background: #ff5945;
+	color: #fff;
+	cursor: pointer;
+}
+
+#list li{
+	position: relative;
+}
+
+#list li.checked{
+	color: rgba(0,0,0,0.6);
+	text-decoration: line-through;
+}
+
+#list li input{
+	margin:10px;
+}
+
+#list li span{
+	text-align: right;
+	position: absolute;
+	right: 5px;
+	color: rgba(0,0,0,0.4);
+	font-weight: 600;
+	cursor: pointer;
+}
