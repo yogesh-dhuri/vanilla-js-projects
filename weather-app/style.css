@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27374D;
+    letter-spacing: 2px
+}
+
+#card {
+    box-shadow: 5px 5px 10px #000;
+    background: linear-gradient(130deg, rgba(64, 55, 212, 1) 27%, rgba(0, 212, 255, 1) 81%);
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    block-size: fit-content;
+    text-align: center;
+}
+
+#search-bar {
+    margin: 5px;
+    padding: 15px 15px
+}
+
+#search-bar input {
+    padding: 8px 40px 8px 20px;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#search-bar button {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#temp {
+    line-height: 28px;
+}
+
+#extra {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 20px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 8px;
+}
+
+.flex i {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.flex div {
+    line-height: 18px;
+    text-align: left;
+}
+
+.flex div p {
+    font-size: 12px
+}
+
+#error {
+    text-align: left;
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+
+#result-div {
+    display: none;
+}

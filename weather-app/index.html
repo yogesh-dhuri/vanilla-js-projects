@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id='card'>
+        <div id='search-bar'>
+            <input type="text" placeholder="Enter a city" />
+            <button><i class="ri-search-line"></i></button>
+            <div id='error'>Enter correct city name</div>
+        </div>
+        <div id='result-div'>
+            <h2 id='time'>23:00</span></h2>
+            <h4 id='today'><span id='date'>23</span>-<span id='month'>05</span>-<span id='year'>2023</span></h4><br>
+            <p id="weather">Clear</p>
+            <img src="img/clear.png" width="150" height="150">
+            <h1 id='temp'>10°c</h1>
+            <h4 id='city'>Bangalore</h4><br>
+            <div id='extra'>
+                <div id='humidity' class='flex'>
+                    <i class="ri-mist-fill"></i>
+                    <div>
+                        <h4>48%</h4>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div id='wind' class='flex'>
+                    <i class="ri-windy-line"></i>
+                    <div>
+                        <h4>10.29 km/h</h4>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
